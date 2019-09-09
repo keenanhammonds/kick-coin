@@ -1,5 +1,12 @@
 {
   "name": "kick-coin",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.1",
+    "typeface-roboto": "0.0.75",
+    "react": "next",
+    "react-dom": "next"
+
+  }
 }
