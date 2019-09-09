@@ -11,14 +11,14 @@
 
 nav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-content: center;
   height: 100px;
   border-bottom: 1px solid  whitesmoke;
 }
 
 .searchbox-container{
-  height: 180px;
+  height: 120px;
   text-align: center;
   display:flex;
   justify-content: center;
@@ -58,16 +58,24 @@ footer{
 }
 
 
+.cards-container-container{
+  display: flex;
+  justify-content: center;
+}
+
 .cards-container{
   display: flex;
-  justify-content: space-evenly;
-  height: auto;
+  justify-content: space-around;
+  width: 1300px;
+  flex-wrap: wrap;
+  overflow: scroll;
 
 }
 
 .card{
   background-color: white;
-  height: 150px;
-  width: 120px;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
 }
 

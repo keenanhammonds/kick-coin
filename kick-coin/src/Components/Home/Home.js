@@ -17,7 +17,18 @@ class Home extends Component {
         <div className="searchbox-container">
           <Search />
         </div>
-        <div className="cards-container">{cards}</div>
+        <div className="cards-container-container">
+            <div className="cards-container">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
+        </div>
       </div>
     );
   }
