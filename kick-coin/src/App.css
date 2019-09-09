@@ -1,6 +1,8 @@
 .App {
  background-color: #080808;
  color: whitesmoke;
+ height: 100%;
+ margin: 0;
 }
 
 .nav-link-text{
@@ -50,3 +52,22 @@ footer{
   border-top:2px solid whitesmoke;
   text-align: end;
 }
+
+.main{
+  height:674px;
+}
+
+
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+
+}
+
+.card{
+  background-color: white;
+  height: 150px;
+  width: 120px;
+}
+
