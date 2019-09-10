@@ -1,32 +1,31 @@
 .App {
- background-color: #080808;
- color: whitesmoke;
- height: 100%;
- margin: 0;
+  background-color: #080808;
+  color: whitesmoke;
+  height: 100%;
+  margin: 0;
 }
 
-.nav-link-text{
+.nav-link-text {
   color: whitesmoke;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-content: center;
   height: 100px;
-  border-bottom: 1px solid  whitesmoke;
+  border-bottom: 1px solid whitesmoke;
 }
 
-.searchbox-container{
+.searchbox-container {
   height: 120px;
   text-align: center;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-content: center;
 }
 
-
-.inner-search-container{
+.inner-search-container {
   width: 500px;
   height: 90px;
   border: 2px solid whitesmoke;
@@ -36,46 +35,58 @@ nav{
   justify-content: center;
 }
 
-.searchbox{
+.searchbox {
   width: 300px;
   height: 30px;
   align-self: center;
 }
 
-.main-card-container{
+.main-card-container {
   display: flex;
-  height:490px ;
+  height: 490px;
 }
 
-footer{
-  height:50px;
-  border-top:2px solid whitesmoke;
+footer {
+  height: 50px;
+  border-top: 2px solid whitesmoke;
   text-align: end;
 }
 
-.main{
-  height:674px;
+.main {
+  height: 674px;
 }
 
-
-.cards-container-container{
+.cards-container-container {
   display: flex;
   justify-content: center;
 }
 
-.cards-container{
+.cards-container {
   display: flex;
   justify-content: space-around;
   width: 1300px;
   flex-wrap: wrap;
+  border: 2px solid white;
   overflow: scroll;
-
 }
 
-.card{
+.card {
   background-color: white;
   height: 250px;
   width: 250px;
   margin: 10px;
 }
 
+.form-container {
+  text-align: center;
+}
+
+.form-item{
+  margin: 20px;
+}
+
+.form-input{
+  width: 300px;
+  height: 37px;
+  border-radius: 4px;
+}
