@@ -3,10 +3,34 @@
   color: whitesmoke;
   height: 100%;
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-link-text {
   color: whitesmoke;
+  style: none;
+  font-size: 18px;
+  position: absolute;
+  top: 37px;
+}
+
+.nav-link-text:hover{
+  color:firebrick
+}
+
+.logo{
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;  
+  color: firebrick
+}
+
+.link{
+  color: whitesmoke;
+  style: none;
+}
+
+.link:hover{
+  color: firebrick
 }
 
 nav {
@@ -14,7 +38,6 @@ nav {
   justify-content: space-around;
   align-content: center;
   height: 100px;
-  border-bottom: 1px solid whitesmoke;
 }
 
 .searchbox-container {
@@ -28,7 +51,6 @@ nav {
 .inner-search-container {
   width: 500px;
   height: 90px;
-  border: 2px solid whitesmoke;
   align-self: center;
   display: flex;
   align-items: center;
@@ -36,9 +58,10 @@ nav {
 }
 
 .searchbox {
-  width: 300px;
-  height: 30px;
   align-self: center;
+  width: 300px;
+  height: 37px;
+  border-radius: 4px;
 }
 
 .main-card-container {
@@ -66,7 +89,6 @@ footer {
   justify-content: space-around;
   width: 1300px;
   flex-wrap: wrap;
-  border: 2px solid white;
   overflow: scroll;
 }
 
@@ -75,6 +97,7 @@ footer {
   height: 250px;
   width: 250px;
   margin: 10px;
+  border-radius: 2px
 }
 
 .form-container {
@@ -89,4 +112,15 @@ footer {
   width: 300px;
   height: 37px;
   border-radius: 4px;
+}
+
+.about-container{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text-item{
+  text-align: initial;
+  padding-top: 88px;
+  padding-left: 194px;
 }

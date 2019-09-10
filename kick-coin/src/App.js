@@ -17,13 +17,13 @@ class App extends Component {
       <Router>
         <div className="App">
           <nav>
-            <Link to="/kicks">
-              <h2 className="nav-link-text">Kick-Coin</h2>
+            <Link class="link" to="/kicks">
+              <h1 className="logo">Kick-Coin</h1>
             </Link>
-            <Link to="/add-kicks">
-              <h3 className="nav-link-text">Add</h3>
+            <Link class="link" to="/add-kicks">
+              <h3 className="nav-link-text">Price Your Kicks</h3>
             </Link>
-            <Link to="/about">
+            <Link class="link" to="/about">
               <h3 className="nav-link-text">About</h3>
             </Link>
           </nav>
