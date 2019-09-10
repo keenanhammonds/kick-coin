@@ -24,6 +24,10 @@
   color: firebrick
 }
 
+.logo:hover{
+  color: whitesmoke;
+}
+
 .link{
   color: whitesmoke;
   style: none;
@@ -115,12 +119,43 @@ footer {
 }
 
 .about-container{
-  text-align: center;
-  padding-top: 100px;
+  text-align: end;
+  padding-top: 4%;
+  width: 50%;
 }
 
 .text-item{
   text-align: initial;
-  padding-top: 88px;
-  padding-left: 194px;
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 22px;
 }
+
+#photo-one{
+  height: 300px;
+  width: auto;
+  position: absolute;
+  left: 200px;
+}
+
+#photo-two{
+  height: 360px;
+  width: auto;
+  position: absolute;
+  left: 80%;
+  bottom: 240px;
+}
+
+
+#photo-three{
+  height: 350px;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+}
+
+.hustlers{
+  color: gray;
+}
+
