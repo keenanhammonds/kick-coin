@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 
+
 class Add extends Component {
-  constructor() {
-    super();
-    this.state = {
-      shoeName: ""
-    };
-  }
+
 
   shoeChangeHandler = event => {
     this.setState({
@@ -15,8 +11,9 @@ class Add extends Component {
     console.log(this.state);
   };
 
+
   render() {
-    return (
+    return ( 
       <div className="form-container">
         <div className="form-item">
           <input
@@ -39,7 +36,7 @@ class Add extends Component {
             className="form-input"
             onChange={this.urlChangeHandler}
             type="text"
-            placeholder="where's the picture?"
+            placeholder="Price"
           ></input>
         </div>
       </div>

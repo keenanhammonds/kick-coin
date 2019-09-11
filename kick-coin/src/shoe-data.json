@@ -1,0 +1,86 @@
+[
+ {
+   "Manufacturer": "Jordan",
+   "image-file-name": "jordan-1-obsidian",
+   "Color Way": "Jordan 1 Retro High Obsidian UNC",
+   "Price": 175
+ },
+ {
+   "Manufacturer": "Adidas",
+   "image-file-name": "yeezy-500-bonewhite",
+   "Color Way": "Yeezy 500 Bone White",
+   "Price": 199
+ },
+ {
+   "Manufacturer": "NIke",
+   "image-file-name": "nike-sb-dunk-low-supreme",
+   "Color Way": " Nike SB Dunk Low Supreme Jewel Swoosh Red",
+   "Price": 205
+ },
+ {
+   "Manufacturer": "Adidas",
+   "image-file-name": "yeezy-700-magnet",
+   "Color Way": "Yeezy Boost 700 Magnet",
+   "Price": 336
+ },
+ {
+   "Manufacturer": "Adidas",
+   "image-file-name": "yeezy-350-black-non-reflective",
+   "Color Way": "Yeezy Boost 350 V2 Black (Non-Reflective)",
+   "Price": 300
+ },
+ {
+   "Manufacturer": "Jordan",
+   "image-file-name": "jordan-1-gym-red",
+   "Color Way": "Jordan 1 Retro High Black Gym Red",
+   "Price": 145
+ },
+ {
+   "Manufacturer": "NIke",
+   "image-file-name": "nike-blazer-high-sacai-snow",
+   "Color Way": "Nike Blazer High sacai Snow Beach",
+   "Price": 158
+ },
+ {
+   "Manufacturer": "Converse",
+   "image-file-name": "commes-play-chucks",
+   "Color Way": "Converse Chuck Taylor All-Start 70s Hi Comme Des Garrcons PLAY Black",
+   "Price": 158
+ },
+ {
+   "Manufacturer": "Revenge",
+   "image-file-name": "revenge-low-black",
+   "Color Way": "Revenge X Storm Low Top Black",
+   "Price": 168
+ },
+ {
+   "Manufacturer": "Nike",
+   "image-file-name": "nike-sacai-green-purple",
+   "Color Way": "LD Waffle Sacai Green Purple",
+   "Price": 500
+ },
+ {
+   "Manufacturer": "Jordan",
+   "image-file-name": "jordan-1-high-pine",
+   "Color Way": "jordan 1 Retro High Pine Green",
+   "Price": 199
+ },
+ {
+   "Manufacturer": "Nike",
+   "image-file-name": "air-max-1-tinker",
+   "Color Way": "Air Max 1 Tinker Schematic",
+   "Price": 142
+ },
+ {
+   "Manufacturer": "Nike",
+   "image-file-name": "air-max-90-off-white",
+   "Color Way": "Air Max 90 OFF-WHITE",
+   "Price": 550
+ },
+ {
+   "Manufacturer": "Nike",
+   "image-file-name": "fear-of-god-sail-black",
+   "Color Way": "Air Fear Of God 1 Sail Black",
+   "Price": 500
+ }
+]

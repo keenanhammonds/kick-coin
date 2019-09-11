@@ -3,15 +3,21 @@ import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Add from "./Components/Add/Add";
+import shoeData from "./shoe-data.json"
 import "./App.css";
+import shoes from  "./shoe-images"
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      shoes: "shoe"
+      shoeData: shoeData
     };
   }
+  componentDidMount(){
+    console.log(shoeData)
+    console.log(shoes)
+}
   render() {
     return (
       <Router>
