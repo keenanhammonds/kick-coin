@@ -1,86 +1,86 @@
 [
  {
    "Manufacturer": "Jordan",
-   "image-url": "https://imgur.com/hn1Bwtv",
-   "Color Way": "Jordan 1 Retro High Obsidian UNC",
+   "imageUrl": "https://imgur.com/hn1Bwtv",
+   "colorWay": "Jordan 1 Retro High Obsidian UNC",
    "Price": 175
  },
  {
    "Manufacturer": "Adidas",
-   "image-url": "https://imgur.com/kElPy7P",
-   "Color Way": "Yeezy 500 Bone White",
+   "imageUrl": "https://imgur.com/kElPy7P",
+   "colorWay": "Yeezy 500 Bone White",
    "Price": 199
  },
  {
    "Manufacturer": "NIke",
-   "image-url": "https://imgur.com/FF9QxFR",
-   "Color Way": " Nike SB Dunk Low Supreme Jewel Swoosh Red",
+   "imageUrl": "https://imgur.com/FF9QxFR",
+   "colorWay": " Nike SB Dunk Low Supreme Jewel Swoosh Red",
    "Price": 205
  },
  {
    "Manufacturer": "Adidas",
-   "image-url": "https://imgur.com/y4Du4Dl",
-   "Color Way": "Yeezy Boost 700 Magnet",
+   "imageUrl": "https://imgur.com/y4Du4Dl",
+   "colorWay": "Yeezy Boost 700 Magnet",
    "Price": 336
  },
  {
    "Manufacturer": "Adidas",
-   "image-url": "https://imgur.com/2ofV7gO",
-   "Color Way": "Yeezy Boost 350 V2 Black (Non-Reflective)",
+   "imageUrl": "https://imgur.com/2ofV7gO",
+   "colorWay": "Yeezy Boost 350 V2 Black (Non-Reflective)",
    "Price": 300
  },
  {
    "Manufacturer": "Jordan",
-   "image-url": "https://imgur.com/1Ul5r3D",
-   "Color Way": "Jordan 1 Retro High Black Gym Red",
+   "imageUrl": "https://imgur.com/1Ul5r3D",
+   "colorWay": "Jordan 1 Retro High Black Gym Red",
    "Price": 145
  },
  {
    "Manufacturer": "NIke",
-   "image-url": "https://imgur.com/B6eWkmq",
-   "Color Way": "Nike Blazer High sacai Snow Beach",
+   "imageUrl": "https://imgur.com/B6eWkmq",
+   "colorWay": "Nike Blazer High sacai Snow Beach",
    "Price": 158
  },
  {
    "Manufacturer": "Converse",
-   "image-url": "https://imgur.com/LfiRXcd",
-   "Color Way": "Converse Chuck Taylor All-Start 70s Hi Comme Des Garrcons PLAY Black",
+   "imageUrl": "https://imgur.com/LfiRXcd",
+   "colorWay": "Converse Chuck Taylor All-Start 70s Hi Comme Des Garrcons PLAY Black",
    "Price": 158
  },
  {
    "Manufacturer": "Revenge",
-   "image-url": "https://imgur.com/undefined",
-   "Color Way": "Revenge X Storm Low Top Black",
+   "imageUrl": "https://imgur.com/undefined",
+   "colorWay": "Revenge X Storm Low Top Black",
    "Price": 168
  },
  {
    "Manufacturer": "Nike",
-   "image-url": "https://imgur.com/E2wcewY",
-   "Color Way": "LD Waffle Sacai Green Purple",
+   "imageUrl": "https://imgur.com/E2wcewY",
+   "colorWay": "LD Waffle Sacai Green Purple",
    "Price": 500
  },
  {
    "Manufacturer": "Jordan",
-   "image-url": "https://imgur.com/a/qaSJUVH",
-   "Color Way": "jordan 1 Retro High Pine Green",
+   "imageUrl": "https://imgur.com/a/qaSJUVH",
+   "colorWay": "jordan 1 Retro High Pine Green",
    "Price": 199
  },
  {
    "Manufacturer": "Nike",
-   "image-url": "https://imgur.com/GDBXLFj",
-   "Color Way": "Air Max 1 Tinker Schematic",
+   "imageUrl": "https://imgur.com/GDBXLFj",
+   "colorWay": "Air Max 1 Tinker Schematic",
    "Price": 142
  },
  {
    "Manufacturer": "Nike",
-   "image-url": "https://imgur.com/oqF0sel",
-   "Color Way": "Air Max 90 OFF-WHITE",
+   "imageUrl": "https://imgur.com/oqF0sel",
+   "colorWay": "Air Max 90 OFF-WHITE",
    "Price": 550
  },
  {
    "Manufacturer": "Nike",
-   "image-url": "https://imgur.com/n3lnQOf",
-   "Color Way": "Air Fear Of God 1 Sail Black",
+   "imageUrl": "https://imgur.com/n3lnQOf",
+   "colorWay": "Air Fear Of God 1 Sail Black",
    "Price": 500
  }
 ]

@@ -5,14 +5,12 @@ import Card from "./Card/Card";
 class Home extends Component {
   render() {
     // The props are the shoe data so we are passing the shoe data form the app state.
-    // map through the shoe data 
-    const shoeData = this.props.shoeData
-    console.log('this is the shoe data', shoeData)
+    // map through the shoe data
+    const shoeData = this.props.shoeData;
+    console.log("this is the shoe data in home", shoeData);
     const displayCards = shoeData.map(shoe => {
-      return(
-        <Card />
-      ) 
-    })
+      return <Card shoe={shoe} />;
+    });
     return (
       <div>
         <div className="searchbox-container">
