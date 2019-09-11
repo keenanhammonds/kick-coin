@@ -5,7 +5,7 @@ import Home from "./Components/Home/Home";
 import Add from "./Components/Add/Add";
 import shoeData from "./shoe-data.json"
 import "./App.css";
-import shoes from  "./shoe-images"
+// import shoes from  "./shoe-images"
 
 class App extends Component {
   constructor() {
@@ -14,22 +14,21 @@ class App extends Component {
       shoeData: shoeData
     };
   }
-  componentDidMount(){
-    console.log(shoeData)
-    console.log(shoes)
-}
+//   componentDidMount(){
+//     console.log(shoeData)
+// }
   render() {
     return (
       <Router>
         <div className="App">
           <nav>
-            <Link class="link" to="/kicks">
+            <Link className="link" to="/kicks">
               <h1 className="logo">Kick-Coin</h1>
             </Link>
-            <Link class="link" to="/add-kicks">
+            <Link className="link" to="/add-kicks">
               <h3 className="nav-link-text">Price Your Kicks</h3>
             </Link>
-            <Link class="link" to="/about">
+            <Link className="link" to="/about">
               <h3 className="nav-link-text">About</h3>
             </Link>
           </nav>
@@ -40,7 +39,7 @@ class App extends Component {
               <Route
                 exact
                 path="/kicks"
-                render={() => <Home shoes={this.state.shoes} />}
+                render={() => <Home shoeData={this.state.shoeData} />}
               />
               <Route
                 exact
