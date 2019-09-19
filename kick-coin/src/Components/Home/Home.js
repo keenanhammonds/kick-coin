@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import Search from "./Search/Search";
 import Card from "./Card/Card";
 
-
 class Home extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-
-    }
+      input: ""
+    };
   }
   render() {
     // The props are the shoe data so we are passing the shoe data form the app state.
@@ -16,12 +15,19 @@ class Home extends Component {
     const shoeData = this.props.shoeData;
     console.log("this is the shoe data in home", this.props);
     const displayCards = shoeData.map(shoe => {
-      return <Card key={shoe.imageUrl} shoe={shoe}/>
-    })
+      return <Card key={shoe.imageUrl} shoe={shoe} />;
+    });
     return (
       <div>
         <div className="searchbox-container">
-          <Search />
+          <div className="inner-search-container">
+            <input
+              className="form-input"
+              className="searchbox"
+              placeholder="Search A Sneaker"
+              type="text"
+            ></input>
+          </div>
         </div>
         <div className="cards-container-container">
           <div className="cards-container"></div>
