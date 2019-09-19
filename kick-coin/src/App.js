@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Add from "./Components/Add/Add";
-import shoeData from "./shoe-data.json"
+import shoeData from "./shoe-data.json";
 import "./App.css";
 // import shoes from  "./shoe-images"
 
@@ -11,12 +11,14 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      shoeData: shoeData
+      shoeData: shoeData,
+
     };
   }
-//   componentDidMount(){
-//     console.log(shoeData)
-// }
+
+  componentDidMount() {
+    console.log("shoe data in app", shoeData); 
+  }
   render() {
     return (
       <Router>
@@ -44,7 +46,7 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={() => <Home shoes={this.state.shoes} />}
+                render={() => <Home shoeData={this.state.shoeData} />}
               />
             </Switch>
           </div>

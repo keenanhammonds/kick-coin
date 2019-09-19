@@ -39,6 +39,9 @@ class Add extends Component {
             placeholder="Price"
           ></input>
         </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </div>
     );
   }

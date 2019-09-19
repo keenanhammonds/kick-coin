@@ -86,23 +86,17 @@ footer {
 .cards-container-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 530px;
 }
 
 .cards-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 1300px;
-  flex-wrap: wrap;
-  overflow: scroll;
 }
 
-.card {
-  background-color: white;
-  height: 250px;
-  width: 250px;
-  margin: 10px;
-  border-radius: 2px
-}
 
 .form-container {
   text-align: center;
