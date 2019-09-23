@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Search from "./Search/Search";
 import Card from "./Card/Card";
 
 class Home extends Component {
@@ -9,16 +8,14 @@ class Home extends Component {
       input: ""
     };
   }
+
+  handleChange = (e) => {
+    e.preventDefault()
+
+  }
+
   render() {
-    // The props are the shoe data so we are passing the shoe data form the app state.
-    // map through the shoe data
-    const shoeData = this.props.shoeData;
-    console.log("this is the shoe data in home", this.props);
-    const displayCards = shoeData.map(shoe => {
-      return <Card key={shoe.imageUrl} shoe={shoe} />;
-    });
-    return (
-      <div>
+    // The props are the shoe data so we are passing the shoe data form the app state.3
         <div className="searchbox-container">
           <div className="inner-search-container">
             <input
